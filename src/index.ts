@@ -3,6 +3,7 @@ import * as debug from 'debug';
 
 import App from './App';
 
+// used to setup terminal logging for the app
 debug('ts-express:server');
 
 const port = normalizePort(process.env.PORT || 3000);

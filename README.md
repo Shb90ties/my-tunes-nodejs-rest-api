@@ -1,6 +1,6 @@
 # My Tunes - Node JS (TS) rest-API
 ### Includes
-> MonogoDB
+> MonogoDB (currently works with a mock data.json)
 > TypeScript
 > JWT (json web token)
 > Elastic Search
@@ -14,9 +14,15 @@
 > Node 8.9.1
 > npm 5.5.1
 
+#### TDD (Test Driven evelopment) for QA
+> Mocha 3
+> Chai 3
+> use with ts-node 3, translate TS to the Mocha Environment
+
 #### Start
 > gulp scripts / npm run build
 > npm start
+> gulp watch
 
 #### Guides
 > node_modules/.bin/tsc // to compile src to js to the dist folder
